@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        * {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
+        }
+
+        table {
+            width: 300px;
+            margin: auto;
+        }
+
+        .textbox {
+            width: 284px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <input 
+                        class="textbox"
+                        type="text"
+                        name="username"
+                        id="username"
+                        autofocus
+                        maxlength="8"
+                        required
+                        tabindex="1"
+                        placeholder="Type your username"
+                    >
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input 
+                        class="textbox"
+                        type="password"
+                        name="password"
+                        id="password"
+                        maxlength="16"
+                        required
+                        tabindex="2"
+                        width="100px"
+                        placeholder="Type your password"
+                    >
+                </td>
+            </tr>
+            <tr>
+                <td><input type="reset" value="Reset" style="width:99%" /></td>
+                <td><input type="submit" value="Submit" style="width:99%" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

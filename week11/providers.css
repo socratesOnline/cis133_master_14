@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(#8686ff ,#f4f4fd , #6363f9 );
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img {
+    height: 30px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 350px;
+    width: 800px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th{
+    border: 1px solid black;
+    font-size: 20px;
+    border-collapse: collapse;
+    padding: 5px;
+
+}
+
+td{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+tr:nth-child(odd){
+    background-color: #d2d2fb;
+}
+
+tr:nth-child(even){
+    background-color: #f4f4fd;
+}
+
+.table{
+    
+    
+}
+

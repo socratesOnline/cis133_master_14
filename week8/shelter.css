@@ -1,0 +1,82 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 75px auto 50px;
+    grid-template-areas: "hdr hdr" "aside main" "ftr ftr";
+}
+
+header, aside, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    color: white;
+    background-color: blue;
+    grid-area: hdr;
+}
+
+aside {
+    background-color: yellow;
+    grid-area: aside;
+}
+
+aside > img {
+    border-radius: 50%;
+}
+
+main {
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    color: white;
+    background-color: blue;
+    grid-area: ftr;
+}
+
+header, footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(33,87,51);
+}
+
+p {
+    color: blue;
+}
+
+.mascot {
+    height: 50px;
+    vertical-align: middle;
+}
+
+.amigo_div {
+    background-color: lightblue;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.amigo_div > img {
+    width: 180px;
+    height: 180px;
+}
